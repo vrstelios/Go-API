@@ -4,11 +4,18 @@ import (
 	_ "context"
 	"e/api"
 	"e/config"
+	_ "e/docs"
 	"log"
 	"net/http"
 	"os"
 )
 
+// @title 	Tag Service API
+// @version	1.0
+// @description A Tag service API in Go using Gin framework
+
+// @host 	localhost:8000
+// @BasePath /api
 func main() {
 	// Initialize PostgreSQL connection
 	config.InitDB()
