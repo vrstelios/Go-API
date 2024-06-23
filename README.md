@@ -23,21 +23,21 @@ Some you can make yet the data simple you take data from the file `insertData.sq
 ### Sawgger
 The project have swagger in order to you see the api `URL` which there are in the app.
 
-So when you run the app, going in this `url http://localhost:8000/docs/index.html#/` in order to you see all the app
+So when you run the app, going in this `url http://localhost:8000/docs/index.html#/` in order to you see all the app.
 
-# Create a request (POST)
+### Create a request (POST)
 
 Do Post in postman in this url http://localhost:8000/api/createTourism with body from the json file which have in data file.
 
-# Read a request (GET)
+### Read a request (GET)
 
 Do Get in postman in this url http://localhost:8000/api/readTourism/{id}.
 
-# Update a request (PUT)
+### Update a request (PUT)
 
 Do Put in postman in this url http://localhost:8000/api/updateTourism/{id} with body a different json file.
 
-# Delete  a request (DEL)
+### Delete  a request (DEL)
 
 Do Del in postman in this url http://localhost:8000/api/deleteTourism/{id}.
 
