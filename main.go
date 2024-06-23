@@ -30,7 +30,7 @@ func main() {
 	if port == "" {
 		port = "8000"
 	}
-	if err := http.ListenAndServe(":"+port, server.Handler()); err != nil {
+	if err := http.ListenAndServe(":"+port, server.Router()); err != nil {
 		log.Fatalf("Server error: %s - %v", err, err == http.ErrServerClosed)
 	}
 }
