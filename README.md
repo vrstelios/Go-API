@@ -22,19 +22,19 @@ Some you can make yet the data simple you take data from the file `insertData.sq
 
 # Create a request (POST)
 
-Do Post in postman in this url http://localhost:8000/createTourism with body from the json file which have in data file.
+Do Post in postman in this url http://localhost:8000/api/createTourism with body from the json file which have in data file.
 
 # Read a request (GET)
 
-Do Get in postman in this url http://localhost:8000/readTourism/{id}.
+Do Get in postman in this url http://localhost:8000/api/readTourism/{id}.
 
 # Update a request (PUT)
 
-Do Put in postman in this url http://localhost:8000//updateTourism/{id} with body a different json file.
+Do Put in postman in this url http://localhost:8000/api/updateTourism/{id} with body a different json file.
 
 # Delete  a request (DEL)
 
-Do Del in postman in this url http://localhost:8000//deleteTourism/{id}.
+Do Del in postman in this url http://localhost:8000/api/deleteTourism/{id}.
 
 
 
