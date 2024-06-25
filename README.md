@@ -21,9 +21,9 @@ After that you can take the tables from the file `schama.sql` and you create to 
 Some you can make yet the data simple you take data from the file `insertData.sql`
 
 ### Sawgger
-The project have swagger in order to you see the api `URL` which there are in the APIs.
+The project have swagger in order to you see the api `URL` which there are in the app.
 
-So when you run the app, going in this `url http://localhost:8000/docs/index.html#/` in order to you see all the app.
+So when you run the app, going in this `url http://localhost:8000/docs/index.html#/` in order to you see all the APIs.
 
 ### Create a request (POST)
 
